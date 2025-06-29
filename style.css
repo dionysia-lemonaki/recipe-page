@@ -1,0 +1,54 @@
+:root {
+  /* colours */
+  --white: hsl(0 0% 100%);
+  --stone-100: hsl(30 54% 90%);
+  --stone-150: hsl(30 18% 87%);
+  --stone-600: hsl(30 10% 34%);
+  --stone-900: hsl(24 5% 18%);
+  --brown-800: hsl(14 45% 36%);
+  --rose-50: hsl(330 100% 98%);
+  --rose-800: hsl(332 51% 32%);
+
+  /* semantic colours */
+  --bg-body: var(--stone-100);
+  --bg-card: var(--white);
+  --bg-card-accent: var(--rose-50);
+  --clr-border: var(--stone-150);
+  --clr-text-body: var(--stone-600);
+  --clr-heading-primary: var(--stone-900);
+  --clr-heading-secondary: var(--brown-800);
+  --clr-heading-accent: var(--rose-800);
+  --clr-table-data: var(--brown-800);
+  --clr-bullet-primary: var(--brown-800);
+  --clr-bullet-accent: var(--rose-800);
+
+  /* typography */
+  --ff-sans: "Outfit", sans-serif;
+  --ff-serif: "Young Serif", serif;
+  --fw-normal: 400;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fs-base: 1rem; /* 16px */
+  --fs-lg: 1.25rem; /* 20px */
+  --fs-2xl: 1.75rem; /* 28px */
+  --fs-4xl: 2.25rem; /* 36px */
+  --fs-5xl: 2.5rem; /* 40px */
+  --fs-fluid-xl: clamp(var(--fs-4xl), 2.1786rem + 0.3571vw, var(--fs-5xl));
+  --lh-tight: 1;
+  --lh-base: 1.5;
+
+  /* spacing */
+  --space-100: 8px;
+  --space-150: 12px;
+  --space-200: 16px;
+  --space-300: 24px;
+  --space-400: 32px;
+  --space-500: 40px;
+  --space-600: 48px;
+  --space-160: 128px;
+
+  /* border radius & box shadow */
+  --radius-sm: var(--space-150);
+  --radius-lg: var(--space-300);
+  --shadow: 0 4px 4px 0 hsl(0 0 0 / 0.25);
+}
