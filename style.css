@@ -117,3 +117,14 @@ main {
   padding: var(--space-500) var(--space-400);
   gap: var(--space-400);
 }
+
+.recipe__title {
+  font-family: var(--ff-serif);
+  font-size: var(--fs-fluid-xl);
+  color: var(--clr-heading-primary);
+  line-height: var(--lh-tight);
+}
+
+.recipe__description {
+  margin-block-start: var(--space-300);
+}
