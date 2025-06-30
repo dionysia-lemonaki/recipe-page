@@ -94,3 +94,15 @@ body {
   font-weight: var(--fw-normal);
   line-height: var(--lh-base);
 }
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe {
+  background-color: var(--bg-card);
+  max-width: clamp(38.5rem, 36.3571rem + 10.7143vw, 46rem);
+}
