@@ -84,6 +84,7 @@
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 body {
@@ -102,7 +103,17 @@ main {
   align-items: center;
 }
 
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 .recipe {
   background-color: var(--bg-card);
   max-width: clamp(38.5rem, 36.3571rem + 10.7143vw, 46rem);
+}
+
+.recipe__content {
+  padding: var(--space-500) var(--space-400);
+  gap: var(--space-400);
 }
