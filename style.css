@@ -45,7 +45,7 @@
   --space-400: 32px;
   --space-500: 40px;
   --space-600: 48px;
-  --space-160: 128px;
+  --space-1600: 128px;
 
   /* border radius & box shadow */
   --radius-sm: var(--space-150);
@@ -223,4 +223,27 @@ td {
 .recipe-subsection__item::marker {
   color: var(--clr-bullet-primary);
   font-weight: var(--fw-bold);
+}
+
+@media (min-width: 48rem) {
+  main {
+    padding: var(--space-1600) var(--space-600);
+  }
+  .recipe {
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+  }
+  .recipe__image {
+    padding-block-start: var(--space-500);
+    padding-inline: var(--space-500);
+  }
+  .recipe__image img {
+    border-radius: var(--radius-sm);
+  }
+
+  .recipe__content {
+    padding-block-start: 0;
+    padding-inline: var(--space-500);
+    margin-block-start: var(--space-500);
+  }
 }
