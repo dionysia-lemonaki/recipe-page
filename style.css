@@ -108,8 +108,8 @@ strong {
 }
 
 hr {
-  border-bottom: none;
-  color: var(--clr-border);
+  border: none;
+  border-top: 1px solid var(--clr-border);
 }
 
 table {
