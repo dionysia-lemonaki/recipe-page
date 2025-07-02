@@ -118,7 +118,7 @@ table {
   border-collapse: collapse;
 }
 
-tr:not(tr:last-child) {
+tr:not(:last-of-type) {
   border-bottom: 1px solid var(--clr-border);
 }
 
