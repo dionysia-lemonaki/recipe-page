@@ -97,3 +97,27 @@ body {
   font-weight: var(--fw-normal);
   line-height: var(--lh-base);
 }
+
+main {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recipe {
+  background-color: var(--clr-bg-card);
+  max-width: 46rem;
+}
+
+@media (min-width: 48rem) {
+  main {
+    padding: var(--space-1600) var(--space-600);
+  }
+
+  .recipe {
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+    padding: var(--space-500);
+  }
+}
