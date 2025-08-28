@@ -114,6 +114,13 @@ main {
   height: auto;
 }
 
+.recipe__content {
+  padding: var(--space-500) var(--space-400);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-400);
+}
+
 @media (min-width: 48rem) {
   main {
     padding: var(--space-1600) var(--space-600);
@@ -127,5 +134,10 @@ main {
 
   .recipe__image {
     border-radius: var(--radius-sm);
+  }
+
+  .recipe__content {
+    padding: 0;
+    margin-block-start: var(--space-500);
   }
 }
