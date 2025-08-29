@@ -130,7 +130,7 @@ th {
 }
 
 td {
-  padding-inline-end: var(--space-400);
+  padding-inline: var(--space-200) var(--space-400);
   color: var(--clr-text-secondary);
   font-weight: var(--fw-bold);
 }
