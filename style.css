@@ -118,15 +118,25 @@ table {
   border-collapse: collapse;
 }
 
-tr:not(:last-child) {
-  border-bottom: var(--border);
-}
-
 th,
 td {
   width: 50%;
   padding-block: var(--space-150);
-  padding-inline: var(--space-400);
+}
+
+th {
+  text-align: start;
+  padding-inline-start: var(--space-400);
+}
+
+td {
+  padding-inline-end: var(--space-400);
+  color: var(--clr-text-secondary);
+  font-weight: var(--fw-bold);
+}
+
+tr:not(:last-child) {
+  border-bottom: var(--border);
 }
 
 tr:first-child th,
@@ -137,15 +147,6 @@ tr:first-child td {
 tr:last-child th,
 tr:last-child td {
   padding-block-end: 0;
-}
-
-th {
-  text-align: start;
-}
-
-td {
-  color: var(--clr-text-secondary);
-  font-weight: var(--fw-bold);
 }
 
 .recipe {
