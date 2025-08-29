@@ -111,7 +111,7 @@ strong {
 
 hr {
   border: none;
-  border: var(--border);
+  border-top: var(--border);
 }
 
 table {
