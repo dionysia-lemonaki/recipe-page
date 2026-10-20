@@ -68,9 +68,41 @@ body {
   font-weight: var(--font-weight-regular);
   font-size: var(--text-base);
   line-height: var(--leading-base);
+
+  @media (width >= 41.25rem) {
+    padding: var(--spacing-1600) var(--spacing-600);
+  }
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+.recipe {
+  background-color: var(--color-white);
+  max-width: 46rem;
+  margin-inline: auto;
+
+  @media (width >= 41.25rem) {
+    padding: var(--spacing-500);
+    border-radius: 24px;
+  }
+}
+
+.recipe-image {
+  height: auto;
+
+  @media (width >= 41.25rem) {
+    border-radius: 12px;
+  }
+}
+
+.recipe-content {
+  padding: var(--spacing-500) var(--spacing-400);
+
+  @media (width >= 41.25rem) {
+    padding: 0;
+    margin-block-start: var(--spacing-500);
+  }
 }
